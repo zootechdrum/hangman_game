@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  let words = ["Hello", "World"]
+  let words = ["Hello", "Wlrld"]
   let chosenWord = words[1]
   let splitWord = chosenWord.split("")
   
@@ -19,9 +19,13 @@ $(document).ready(function() {
   $(document).on("keypress", function(e) {
     if(e.which === 13) {
       let letterEntered = $("input").val();
-      
+      //Checks how many times the inputted letter is in the word.
       if( chosenWord.indexOf(letterEntered) > -1) {
-        $("div>:nth-child(1)").append("<p>Hello</p>")
+        for (let j = 0 ; j < splitWord.length; j++) {
+          if (splitWord[j] === letterEntered) {
+            $("#"+j).append(letterEntered);
+          }
+        }
       }else {
         alert("Letter does not exist")
       }
