@@ -1,0 +1,29 @@
+.red {
+  height: 250px;
+  background:red;
+}
+
+#displayWord {
+
+  text-align:center;
+  margin: 0 auto;
+  width:800px;
+  border: solid 2px black;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+.box {
+  display:inline-block;
+  height: 100px;
+  width: 100px;
+  background: pink;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+#inputLetter {
+  margin-top: 15px;
+}
