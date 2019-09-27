@@ -4,7 +4,7 @@
 }
 
 #displayWord {
-
+  vertical-align: top;
   text-align:center;
   margin: 0 auto;
   width:800px;
@@ -16,6 +16,7 @@ input[type=text] {
 }
 
 .box {
+  vertical-align: top;
   display:inline-block;
   height: 100px;
   width: 100px;
@@ -26,4 +27,9 @@ input[type=text] {
 
 #inputLetter {
   margin-top: 15px;
+}
+
+.alignLet {
+  vertical-align: top;
+  display: inline-block;
 }

@@ -22,8 +22,9 @@ $(document).ready(function() {
       //Checks how many times the inputted letter is in the word.
       if( chosenWord.indexOf(letterEntered) > -1) {
         for (let j = 0 ; j < splitWord.length; j++) {
+
           if (splitWord[j] === letterEntered) {
-            $("#"+j).append(letterEntered);
+            $("#"+j).append("<span class=alignLet >" + letterEntered + "</span>");
           }
         }
       }else {
