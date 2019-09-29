@@ -36,3 +36,11 @@ input[type=text] {
 span {
   font-size: 33px;
 }
+
+.wrong {
+  background: black;
+  color: white;
+  margin:5px;
+  padding: 10px;
+  border-radius: 50%;
+}

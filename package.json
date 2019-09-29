@@ -1,0 +1,22 @@
+{
+  "name": "hangman_game",
+  "version": "1.0.0",
+  "description": "hangMan",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zootechdrum/hangman_game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zootechdrum/hangman_game/issues"
+  },
+  "homepage": "https://github.com/zootechdrum/hangman_game#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
