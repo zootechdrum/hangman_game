@@ -1,9 +1,6 @@
 
 $(document).ready(function() {
 
-  require('dotenv').config()
-
-  const CONFIG = require("config.json")
 
   let words = ["Hello", "Wlrld"]
   let chosenWord = words[1]
@@ -16,7 +13,7 @@ $(document).ready(function() {
 
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: CONFIG.apiKey,
+    apiKey: "AIzaSyCxn7o7hbInUVkuWIq551N6T1ESvUmYOA8",
     authDomain: "myhangman-26740.firebaseapp.com",
     databaseURL: "https://myhangman-26740.firebaseio.com",
     projectId: "myhangman-26740",
