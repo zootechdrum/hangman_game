@@ -4,7 +4,6 @@
 }
 
 #displayWord {
-  vertical-align: top;
   text-align:center;
   margin: 0 auto;
   width:800px;
@@ -32,4 +31,8 @@ input[type=text] {
 .alignLet {
   vertical-align: top;
   display: inline-block;
+}
+
+span {
+  font-size: 33px;
 }
